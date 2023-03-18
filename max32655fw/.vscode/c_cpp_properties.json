@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:/MaximSDK/Libraries/PeriphDrivers/Include/MAX32655",
+                "C:/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX32660/Include",
+                "C:/MaximSDK/Libraries/CMSIS/Device/Maxim/MAX32655/Include"
+            ],
+            "defines": [
+                "${default}"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "C:/MaximSDK/Tools/GNUTools/10.3/bin/arm-none-eabi-gcc.exe",
+            "browse": {
+                "path": [
+                    "${default}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
