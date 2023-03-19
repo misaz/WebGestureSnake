@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Gesture Snake</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script type="text/javascript" src="scripts/gesture-snake.js" async></script>
+</head>
+<body>
+    <h1>Gesture Snake</h1>
+    <p>Instead of keyboard this snake is controlled by your hand movements!</p>
+    <h2>Instructions</h2>
+    <p>To play with Gestures you need <a href="https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/max32655fthr.html">MAX32655FTHR</a> board, <a href="https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/max25405evkit.html">MAX25405EVKIT</a> and tools required for soldering (+ in Europe you need 3.3V@1A power supply like <a href="https://www.tme.eu/details/ama5er4-033160y/plug-in-power-supplies/aimtec/">this one</a> because MAX25405EVKIT contains power supply with US plug).</p>
+    <p>For playing with gesture sensor you need do following:</p>
+    <ol>
+        <li>Solder pin headers to MAX32655FTHR Board</li>
+        <li>Connect EVKIT Shield With MAX32655FTHR Board.</li>
+        <li>Connect EVKIT Sensor Board using ribbon cable to shield and MAX32655FTHR</li>
+        <li>Plug power supply adapter and connect it to EVKIT Shield Board</li>
+        <li>Connect USB Cable between your computer and MAX32655FTHR</li>
+        <li>Download <a href="max32655_gestures_fw.hex">firmware</a> and drag-and-drop downlaoded file to DAPLINK thumbdrive</li>
+        <li>Click the button and select the device: <button id="connect-max25405">Connect IR Gesture Sensor</button></li>
+        <li>Swipe hand from left to right to start the game</li>
+    </ol>
+    <canvas width="800" height="400" id="game_canvas"></canvas>
+    <h2>Source</h2>
+    <p>Game is open source and open hardware. <a href="">GitHub project</a> contains source codes of this web game and also sources of the firmware including sensor driver and gesture detection algorithm. Hardware resources related to MAX32655FTHR and MAX25405EVKIT are avalaible at vendor (Analog Devices) website free to download.</p>
+    <p>Game was created by misaz as part of <a href="https://techmasterevent.com/contest/optoelectronics-for-the-brave">Tech Master Event</a> contest.</p>
+</body>

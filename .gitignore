@@ -5,3 +5,6 @@
 /.vs
 /max32655fw/build
 /max32655fw/flash.log
+/webapp/.vs
+/webapp/scripts/gesture-snake.js
+/webapp/scripts/gesture-snake.js.map

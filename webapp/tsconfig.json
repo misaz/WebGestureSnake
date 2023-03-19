@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES2015",
+		"sourceMap": true,
+		"outFile": "scripts/gesture-snake.js"
+	},
+	"compileOnSave": true,
+	"files": [
+		"scripts/App.ts",
+		"scripts/Snake.ts",
+		"scripts/Food.ts",
+		"scripts/Point.ts",
+		"scripts/Action.ts",
+		"scripts/Renderer.ts",
+		"scripts/StaticBlocks.ts",
+		"scripts/SerialDriver.ts",
+		"scripts/KeyboardDriver.ts"
+	]
+}

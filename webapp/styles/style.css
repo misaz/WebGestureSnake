@@ -1,0 +1,18 @@
+* {
+	font-family: Arial;
+}
+canvas {
+	border: 1px solid black;
+}
+
+body {
+	padding: 10px;
+	background-color: #fff7ce;
+	max-width: 800px;
+	width: 100%;
+	margin: 10px auto;
+}
+
+:root {
+	background-color: #c3eaff;
+}
