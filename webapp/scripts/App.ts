@@ -22,7 +22,7 @@ class App {
 		this.isRunning = false;
 		this.gameOver = false;
 		this.serialDriver = new SerialDriver(this);
-		this.keyboadDriver = new KeyboardDriver(this);
+		this.keyboadDriver = null; // new KeyboardDriver(this);
 		this.renderer = new Renderer(this);
 		this.score = 0;
 		this.generateFood();

@@ -14,7 +14,7 @@ class Renderer {
 		} else if (this.app.getSerialDriver().isFailed()) {
 			this.renderMessage(canvas, ctx, "Error", [this.app.getSerialDriver().getError()]);
 		} else if (!this.app.getSerialDriver().isConnected()) {
-			this.renderMessage(canvas, ctx, "Waiting for device", ["Assemble and connect gesture sensing device according instructions above."]);
+			this.renderMessage(canvas, ctx, "Waiting for device", ["Assemble and connect gesture sensing device according to instructions above."]);
 		} else if (this.app.isGameOver()) {
 			this.renderMessage(canvas, ctx, "Game Over", [" Score: " + this.app.getScore(), "", "Swipe up to reload page and try again."]);
 		} else if (!this.app.isGameStarted()) {
